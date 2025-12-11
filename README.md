@@ -17,12 +17,12 @@ A modern, full-stack AI Chat application built with the MERN stack (MongoDB, Exp
 
 ##  Features
 
-  * ** Smart AI Integration:** Powered by Groq (Llama 3) for lightning-fast responses.
-  * ** Persistent History:** All conversations are saved to MongoDB and loaded on refresh.
-  * ** Dark/Light Theme:** Fully responsive UI with a seamless theme toggler.
-  * ** Markdown Support:** Properly renders code blocks, bold text, lists, and headers.
-  * ** One-Click Copy:** Easily copy AI responses or specific code blocks.
-  * ** Responsive Design:** Works perfectly on Mobile, Tablet, and Desktop.
+  *  Smart AI Integration: Powered by Groq (Llama 3) for lightning-fast responses.
+  *  Persistent History: All conversations are saved to MongoDB and loaded on refresh.
+  *  Dark/Light Theme: Fully responsive UI with a seamless theme toggler.
+  *  Markdown Support: Properly renders code blocks, bold text, lists, and headers.
+  *  One-Click Copy: Easily copy AI responses or specific code blocks.
+  *  Responsive Design: Works perfectly on Mobile, Tablet, and Desktop.
 
 -----
 
