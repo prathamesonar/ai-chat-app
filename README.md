@@ -51,23 +51,23 @@ The project is organized into two main folders: `frontend` (React UI) and `backe
 ```
 
 ai-chat-app/
-├── backend/                \# Node.js & Express Server
+├── backend/                \Node.js & Express Server
 │   ├── models/
-│   │   └── Chat.js         \# Mongoose Schema for saving messages
-│   ├── .env                \# API Keys (MongoDB, Groq)
-│   ├── server.js           \# Main server entry point
+│   │   └── Chat.js         \Mongoose Schema for saving messages
+│   ├── .env                \API Keys (MongoDB, Groq)
+│   ├── server.js           \Main server entry point
 │   └── package.json
 │
-└── frontend/               \# React + Vite Client
+└── frontend/               \React + Vite Client
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── ChatMessage.jsx  \# Individual chat  component
-│   │   └── ThemeToggle.jsx  \# Dark/Light mode switch
-│   ├── App.jsx              \# Main chat interface logic
-│   ├── index.css            \# Tailwind & global styles
+│   │   ├── ChatMessage.jsx  \Individual chat  component
+│   │   └── ThemeToggle.jsx  \Dark/Light mode switch
+│   ├── App.jsx              \Main chat interface logic
+│   ├── index.css            \Tailwind & global styles
 │   └── main.jsx
-├── .env                \# API URL configuration
+├── .env                \API URL configuration
 ├── tailwind.config.js
 └── package.json
 
@@ -118,7 +118,6 @@ npm install
 Create a `.env` file in the `frontend` folder:
 
 ```env
-# Use localhost for local dev, or your Render URL for production
 VITE_API_URL=http://localhost:5000/api
 ```
 
